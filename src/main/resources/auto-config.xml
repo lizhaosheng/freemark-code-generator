@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <targetPath>D:\freemark_auto</targetPath>
+    <!-- ftl中可以使用的全局变量 -->
+    <params>
+        <title>我的系统</title>
+        <mapperpackage>com.lzs.auto.dao.My</mapperpackage>
+        <dopackage>com.lzs.auto.model.MyDO</dopackage>
+        <author>lizhaosheng</author>
+    </params>
+    
+    <!-- 数据库配置  -->
+    <dataSource>
+        <driver   value="com.mysql.jdbc.Driver"></driver>
+        <url      value="jdbc:mysql://192.168.1.255:3306/wdw?useUnicode=true&amp;characterEncoding=UTF8&amp;zeroDateTimeBehavior=convertToNull"></url>
+        <username value="test"></username>
+        <password value="test"></password>
+    </dataSource>
+    
+    <!-- 
+    <tables>
+        <table value="auction_car_deal_info"></table>
+    </tables>
+    -->
+</config>
